@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Nunito:wght@300;400;600;700;800;900&family=Russo+One&family=Spartan:wght@700;800;900&display=swap");
+
+.logo {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+canvas {
+  max-width: 100%;
+  height: 100%;
+}
+
+.midleLine::after {
+  content: "";
+  position: absolute;
+  transform: translate(-50%);
+  left: 50%;
+  width: 1px;
+  height: 100%;
+  opacity: 0.6;
+}
+#project {
+  z-index: 0;
+}
+.Project-mainContainer {
+  z-index: 1;
+}
+.projectContainer {
+  z-index: 2;
+}
+.projectImg img {
+  z-index: 4;
+}
+.horigentalLine {
+  z-index: -1;
+}
+.horigentalLine::after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 2px solid red;
+  background-color: white;
+  position: absolute;
+  right: -7.5px;
+  top: -7.5px;
+}
+.horigentalLineright::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 2px solid blueviolet;
+  background-color: white;
+  position: absolute;
+  left: -7.5px;
+  top: -7.5px;
+}
+
+.clinteBar {
+  box-shadow: 0px 0px 15px 1px rgba(122, 118, 118, 0.336);
+  padding: 2rem;
+}
+.form {
+  margin-right: 100px;
+}
+.form div {
+}
+.form label {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  opacity: 0.7;
+}
+.form label svg {
+  opacity: 0.9;
+}
+.form input,
+textarea {
+  padding: 10px;
+  border: 1px solid rgb(181, 178, 178);
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 5px;
+  height: 55px;
+}
+.form textarea {
+  height: 120px;
+  resize: none;
+}
+.form button {
+  background-color: #1788ae;
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  margin-top: 2rem;
+}
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.socialIcons svg {
+  width: 25px;
+  height: 25px;
+  color: #1788ae;
+  cursor: pointer;
+}
+footer {
+  padding: 50px 0;
+}
+footer p {
+  opacity: 0.6;
+}
+/* ----------------- */
+
+.card {
+  box-shadow: 0px 0px 10px rgb(128, 128, 128);
+  display: flex;
+  justify-content: space-between;
+  padding: 2.25rem 2rem;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.cardImg {
+  border: 2px solid #1788ae;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+.clintDetailContainer {
+  width: 70%;
+}
+.clintDetail {
+  bottom: 1.5rem;
+  right: 2.25rem;
+  position: absolute;
+  text-align: right;
+  font-size: 20px;
+}
+.control-input {
+  padding-bottom: 30px;
+}
+
+.control-input small {
+  color: #e74c3c;
+  font-size: 0.8rem;
+  position: absolute;
+}
+.control-input .error {
+  border: 1px solid red;
+}
+
+.check {
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%);
+  color: green;
+  display: none;
+}
