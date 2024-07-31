@@ -1,20 +1,20 @@
 const clints = [
   {
-    imgUrl: "../assets/images/—Pngtree—web page ui default avatar_3801746.png",
+    imgUrl: "/assets/images/—Pngtree—web page ui default avatar_3801746.png",
     name: "Gautam kamlesh yadav",
     dignation: "fonder",
     feedBack:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nostrum distinctio totam saepe, esse, nisi fuga tempore magni facere dolore est dolorem vitae odio aspernatur tempora! Accusamus eveniet consequuntur",
   },
   {
-    imgUrl: "../assets/images/—Pngtree—web page ui default avatar_3801746.png",
+    imgUrl: "/assets/images/—Pngtree—web page ui default avatar_3801746.png",
     name: "demo2",
     dignation: "fonder",
     feedBack:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nostrum distinctio totam saepe, esse, nisi fuga tempore magni facere dolore est dolorem vitae odio aspernatur tempora! Accusamus eveniet consequuntur quidem.Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nostrum distinctio totam ",
   },
   {
-    imgUrl: "../assets/images/—Pngtree—web page ui default avatar_3801746.png",
+    imgUrl: "/assets/images/—Pngtree—web page ui default avatar_3801746.png",
     name: "demo3",
     dignation: "fonder",
     feedBack:
